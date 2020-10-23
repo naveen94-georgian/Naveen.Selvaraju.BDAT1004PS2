@@ -1,0 +1,29 @@
+Markdown basics
+Markdown is a lightweight markup language just like HTML. And it's especially designed in such a way to be converted to HTML and rendered in browsers. It can also be rendered using other ways, but mostly it's done using HTML. It's a nice tool to write rich text with plain text and it's less complex than HTML. It's widely used for README files, articles, forums, messages, etc.
+
+Adding multiple spaces
+Now, adding multiple spaces between texts depends on how it's rendered. If the markdown text is converted to HTML and rendered in browsers, then you can use the following technique to add multiple spaces between texts.
+
+Solution : Use &nbsp;(Non-Breaking SPace)
+
+How does it work?
+HTML renders multiple spaces into a single space, but if you want to preserve them you use a different code(&nbsp) and since the markdown is converted to HTML, you got it!
+
+Example
+Src:
+
+I have a long space before &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;me.
+
+How you see it in SteemIT website(SteemIT renders markdown using HTML):
+
+I have a long space before            me.
+
+A bonus time-saving trick
+Only multiple space characters() are converted to a single space character, so you can combine the space character with &nbsp;. So if you want, say, 6 spaces, you could combine 6 space characters with &nbsp;.
+
+Ex : I have 6 spaces before &nbsp; &nbsp; &nbsp;me
+Rendered : I have 6 spaces before      me
+
+And finally one more thing, there are other codes like &ensp;(2 x &nbsp;) and &emsp;(4 x &nbsp;).
+
+Good Posting!!!
